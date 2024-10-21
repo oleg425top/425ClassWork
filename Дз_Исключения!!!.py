@@ -70,6 +70,7 @@ try:
     if dig != True or alp != True or len(password) < 8 or password.isalnum() != True:
         raise ValueError("Пароль должен состоять только из букв и цифр и содержать не менее 8 символов!!!")
     print("Welcome")
+    print ('Hello world')
 except ValueError as err:
     print(f"ErroR: {err}")
 finally:
